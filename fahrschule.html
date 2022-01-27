@@ -96,14 +96,32 @@ a:hover {
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
 <script>
-  var num = 812 // variable type number/integer
+  var num = 2 // variable type number/integer
   var result = num * 32
   console.log(result)
-  var name = "tommy" //variable type string
+  var name = "ftommy" //variable type string
   console.log("Welcome " + name + "!")
   var isLoggedIn = true //variable type boolean (true/false)
   var degrees = 54.66 //variable type integer but actually float
-  
+  // var birthyear = prompt("Wann ist dein Geburtsjahr?")
+  // if(birthyear > 2000){
+  //   console.log("Old enough")
+  // } else {
+  //   console.log("Too young")
+  // }
+  var users = ["Thomas", "Frank", "tommy"] //Array
+  console.log(users);
+  console.log(users[0]) //access first element on index 0 of array
+  var session = { // complex data structur "Object"
+    id: "3894723984bsdbs73",
+    createdAt: 2011,
+    user: {
+      name: "tommy",
+      age: 33,
+      phones: [10, 22, 66]
+    }
+  }
+  console.log(session['user']['phones'][2]); //access deeply nested Object values
 </script>
 </head>
 <body>
