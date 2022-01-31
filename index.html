@@ -32,9 +32,11 @@
     </div>
     <div id="modal" class="modal d-none">
         Login
-        <form >
-            <input type="text" />
+        <form id="form">
+            <input placeholder="firstname" name="firstname" type="text" />
+            <input placeholder="lastname" name="lastname" type="text" />
             <button type="submit">Submit</button>
+            <span id="loading" class="loading d-none" >+</span>
         </form>
     </div>
     <script src="index.js"></script>
