@@ -18,6 +18,9 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+.d-none {
+    display:  none;
+}
 
 .logo{
     width: 100px;
